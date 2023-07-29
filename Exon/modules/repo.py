@@ -21,22 +21,9 @@ async def repo(_, message):
         photo=ABISHNOIX,
         caption=f"""✨ **ʜᴇʏ {message.from_user.mention},**
 
-**ᴏᴡɴᴇʀ  : [𝐀ʙɪꜱʜɴᴏɪ](https://t.me/Abishnoi1M)**
+**ᴏᴡɴᴇʀ  : [𝐀ʙɪꜱʜɴᴏɪ](https://t.me/zadkiel_z)**
 **ᴘʏᴛʜᴏɴ ᴠᴇʀꜱɪᴏɴ :** `{y()}`
 **ʟɪʙʀᴀʀʏ ᴠᴇʀꜱɪᴏɴ :** `{o}`
 **ᴛᴇʟᴇᴛʜᴏɴ ᴠᴇʀꜱɪᴏɴ :** `{s}`
 **ᴘʏʀᴏɢʀᴀᴍ ᴠᴇʀꜱɪᴏɴ :** `{z}`
-""",
-        reply_markup=InlineKeyboardMarkup(
-            [
-                [
-                    InlineKeyboardButton(
-                        "•ᴍᴜꜱɪᴄ•", url="https://github.com/Abishnoi69/AsuXMusic"
-                    ),
-                    InlineKeyboardButton(
-                        "•ʀᴏʙᴏᴠ1•", url="https://github.com/Abishnoi69/ExonRobot"
-                    ),
-                ]
-            ]
-        ),
-    )
+"""

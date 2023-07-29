@@ -8,7 +8,7 @@ load_dotenv()
 class Config(object):
     LOGGER = True
 
-    API_ID = int(getenv("API_ID", 6))
+    API_ID = int(getenv("API_ID", ))
     API_HASH = getenv("API_HASH", None)
     ARQ_API_KEY = "PMPTTD-HOMLMF-SRBHNH-RZMWXL-ARQ"
     SPAMWATCH_API = None
